@@ -1,0 +1,25 @@
+{
+	"name": "TrendPulse",
+	"packageName": "com.simuel.trendpulse",
+	"packageMode": "App",
+	"compileSDK": 35,
+	"minSDK": 28,
+	"javaVersion": 11,
+	"soMode": "Packed",
+	"schemes": [
+		{
+			"title": "TrendPulse Debug",
+			"swiftTargets": [
+				"AppUI"
+			],
+			"buildConfiguration": "Debug"
+		},
+		{
+			"title": "TrendPulse Release",
+			"swiftTargets": [
+				"AppUI"
+			],
+			"buildConfiguration": "Release"
+		}
+	]
+}

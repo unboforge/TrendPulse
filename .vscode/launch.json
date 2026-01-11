@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:TrendPulse}",
+            "name": "Debug AppManifest",
+            "target": "AppManifest",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug AppManifest"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:TrendPulse}",
+            "name": "Release AppManifest",
+            "target": "AppManifest",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release AppManifest"
+        }
+    ]
+}
