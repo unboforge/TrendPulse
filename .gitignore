@@ -1,1 +1,29 @@
-.buildCLAUDE.md
+# Swift Build
+.build/
+.swiftpm/
+*.xcodeproj
+xcuserdata/
+DerivedData/
+
+# SwifDroid / Android
+*.apk
+*.aab
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Claude Code
+CLAUDE.md
+.claude/settings.local.json
+
+# Documentation (local)
+docs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
