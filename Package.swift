@@ -30,6 +30,12 @@ let package = Package(
             name: "App",
             dependencies: [
                 .product(name: "Droid", package: "droid"),
+                .target(name: "Domain"),
             ]
+        ),
+        .target(
+            name: "Domain",
+            dependencies: [],
+            path: "Sources/Domain"
         ),
     ])
